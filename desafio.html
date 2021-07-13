@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+</head>
+<body>
+    <p>17/04/21<p style="text-align: center;">document</p</p>
+    <h1>Llena el formulario de contacto</h1>
+    <h3>información personal</h3>
+    <form>
+        <br><label id="nombre">Nombre</label>
+        <br><input id="nombre" type="text">
+        <br><br><label id="email">E-mail</label>
+        <br><input type="email" id="email">
+        <br><br><label id="telefono">Telefono</label>
+        <br><input type="tel" id="telefono">
+        <br><br><label id="mensaje">Mensaje</label>
+        <br><textarea name="mensaje" cols="30" rows="10" id="mensaje"></textarea>
+    </form> 
+    <h3>Información sobre Propiedad</h3>
+    <form>
+        <label id="opciones">Vende o compra:</label>
+        <br><select name="-Seleccione" id="opciones" placeholder="-Seleccione">
+            <option value="V">Vende</option>
+            <option value="C">Compra</option>
+        </select>
+        <br><br><label>Presupuesto</label>
+        <br><input type="text">
+    </form>
+    <h3>Contacto</h3>
+    <form>
+        <label>Cómo deberia ser contactado</label>
+        <br><input type="checkbox">telefono
+        <br><input type="checkbox">Correo
+        <p>Si eligió telefono elija una fecha</p>
+        <br><label>Fecha</label>
+        <br><input type="date">
+        <br><label >Hora:</label>
+        <br><input type="submit" value="Enviar"><input type="reset" value="Borrar">
+
+
+    </form>
+</body>
+</html>
